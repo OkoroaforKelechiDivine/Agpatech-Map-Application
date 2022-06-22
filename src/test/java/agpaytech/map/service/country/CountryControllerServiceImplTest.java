@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @Slf4j
 
-public class CountryServiceImplTest {
+public class CountryControllerServiceImplTest {
 
 //    @Autowired
     CountryServiceImpl countryService;
