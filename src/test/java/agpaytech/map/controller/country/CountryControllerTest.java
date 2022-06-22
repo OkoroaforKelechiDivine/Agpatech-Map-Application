@@ -21,11 +21,16 @@ public class CountryControllerTest {
     MockMvc mockMvc;
 
     @Test
-    public void getCountryByName() throws Exception {
+    public void getCountryByName_Japan() throws Exception {
         this.mockMvc.perform(post("/country/Japan"))
                 .andDo(print()).andExpect(status().isOk());
     }
 
+    @Test
+    public void getCountryByName_Nigeria() throws Exception {
+        this.mockMvc.perform(post("/country/Nigeria"))
+                .andDo(print()).andExpect(status().isOk());
+    }
 
     @Test
     public void getAWrongCountryByName() throws Exception {
