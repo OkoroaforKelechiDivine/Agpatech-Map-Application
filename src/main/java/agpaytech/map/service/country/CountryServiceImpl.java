@@ -1,6 +1,5 @@
 package agpaytech.map.repository.country;
 
-import agpaytech.map.data.country.Country;
 import agpaytech.map.exception.CountryException;
 import agpaytech.map.service.country.CountryService;
 import lombok.extern.slf4j.Slf4j;

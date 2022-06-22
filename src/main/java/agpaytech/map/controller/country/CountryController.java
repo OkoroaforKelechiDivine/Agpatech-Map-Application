@@ -1,6 +1,5 @@
 package agpaytech.map.controller.country;
 
-import agpaytech.map.data.country.Country;
 import agpaytech.map.exception.CountryException;
 import agpaytech.map.repository.country.CountryServiceImpl;
 import agpaytech.map.repository.country.StaticCountries;
